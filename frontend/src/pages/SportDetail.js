@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { FaArrowLeft, FaCheckCircle, FaCalendarAlt, FaUsers, FaClock } from 'react-icons/fa';
+import { FaArrowLeft, FaCheckCircle, FaCalendarAlt, FaUsers, FaClock, FaArrowRight } from 'react-icons/fa';
 import { apiService } from '../services/api';
 
 const SportDetail = () => {
