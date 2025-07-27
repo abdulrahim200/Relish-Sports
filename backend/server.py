@@ -116,33 +116,49 @@ async def initialize_db():
             {
                 "id": str(uuid.uuid4()),
                 "name": "Cricket",
-                "description": "Professional cricket training with world-class facilities including nets, coaching, and practice sessions.",
-                "image_url": "/images/cricket.jpg",
-                "facilities": ["Cricket Nets", "Practice Pitches", "Coaching", "Equipment"],
+                "description": "Professional cricket training with world-class facilities including nets, coaching, and practice sessions. Experience the thrill of this gentleman's game.",
+                "image_url": "https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                "facilities": ["Cricket Nets", "Practice Pitches", "Coaching", "Equipment", "Match Grounds"],
                 "coaching_available": True
             },
             {
                 "id": str(uuid.uuid4()),
                 "name": "Football",
-                "description": "Football training with professional coaches and state-of-the-art turf facilities.",
-                "image_url": "/images/football.jpg",
-                "facilities": ["Football Turf", "Goal Posts", "Coaching", "Fitness Training"],
+                "description": "Football training with professional coaches and state-of-the-art turf facilities. Master the beautiful game with our expert guidance.",
+                "image_url": "https://images.unsplash.com/photo-1560272564-c83b66b1ad12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                "facilities": ["Football Turf", "Goal Posts", "Coaching", "Fitness Training", "Match Pitches"],
                 "coaching_available": True
             },
             {
                 "id": str(uuid.uuid4()),
                 "name": "Badminton",
-                "description": "Indoor badminton courts with professional coaching and equipment rental.",
-                "image_url": "/images/badminton.jpg",
-                "facilities": ["Indoor Courts", "Professional Coaching", "Equipment Rental"],
+                "description": "Indoor badminton courts with professional coaching and equipment rental. Perfect for players of all skill levels.",
+                "image_url": "https://images.unsplash.com/photo-1544717117-8b808532ee78?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                "facilities": ["Indoor Courts", "Professional Coaching", "Equipment Rental", "Tournament Facilities"],
                 "coaching_available": True
             },
             {
                 "id": str(uuid.uuid4()),
                 "name": "Table Tennis",
-                "description": "Professional table tennis facilities with expert coaching and tournaments.",
-                "image_url": "/images/table-tennis.jpg",
-                "facilities": ["Multiple Tables", "Professional Coaching", "Tournament Facilities"],
+                "description": "Professional table tennis facilities with expert coaching and tournaments. Fast-paced action in a controlled environment.",
+                "image_url": "https://images.unsplash.com/photo-1593766806881-75d3ef5c3402?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                "facilities": ["Multiple Tables", "Professional Coaching", "Tournament Facilities", "Practice Sessions"],
+                "coaching_available": True
+            },
+            {
+                "id": str(uuid.uuid4()),
+                "name": "Kabaddi",
+                "description": "Traditional Indian sport that combines strength, agility, and strategy. Experience the ancient art of Kabaddi with professional training.",
+                "image_url": "https://images.unsplash.com/photo-1700319021396-95aec8e168ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                "facilities": ["Kabaddi Mat", "Training Ground", "Coaching", "Fitness Training", "Team Formation"],
+                "coaching_available": True
+            },
+            {
+                "id": str(uuid.uuid4()),
+                "name": "Basketball",
+                "description": "Indoor basketball courts with professional coaching and competitive leagues. Develop your skills and teamwork.",
+                "image_url": "https://images.unsplash.com/photo-1602674809970-89073c530b0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                "facilities": ["Indoor Courts", "Professional Coaching", "League Matches", "Fitness Training"],
                 "coaching_available": True
             }
         ]
