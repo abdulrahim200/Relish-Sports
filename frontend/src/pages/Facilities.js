@@ -67,7 +67,7 @@ const Facilities = () => {
             {branches.map((branch, index) => (
               <div key={branch.id} className="card">
                 <img
-                  src={`https://images.unsplash.com/photo-${branch.name.includes('Bangalore') ? '1570197788417-0e82375c9371' : '1544551763-46a013bb70d5'}?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80`}
+                  src={branch.image_url}
                   alt={branch.name}
                   className="w-full h-48 object-cover"
                 />
