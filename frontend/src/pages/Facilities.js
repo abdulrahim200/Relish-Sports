@@ -117,7 +117,7 @@ const Facilities = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-6">
                   <div>
                     <img
-                      src={`https://images.unsplash.com/photo-${facility.name.includes('Coaching') ? '1571019613454-1cb2f99b2d8b' : '1544551763-46a013bb70d5'}?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80`}
+                      src={facility.image_url}
                       alt={facility.name}
                       className="w-full h-48 object-cover rounded-lg"
                     />
