@@ -64,10 +64,15 @@ const Home = () => {
             <div className="relative">
               <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-8 transform rotate-3 hover:rotate-0 transition-transform duration-300">
                 <img
-                  src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80"
-                  alt="Sports Action"
+                  src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                  alt="Cristiano Ronaldo Free Kick"
                   className="w-full h-64 object-cover rounded-lg"
                 />
+                <div className="absolute bottom-4 left-4 right-4 text-center">
+                  <p className="text-white text-sm font-medium bg-black/50 rounded px-2 py-1">
+                    Master Your Skills Like The Legends
+                  </p>
+                </div>
               </div>
             </div>
           </div>
