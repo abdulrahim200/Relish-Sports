@@ -123,16 +123,19 @@ const Home = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {sports.map((sport) => (
-              <div key={sport.id} className="card">
-                <img
-                  src={`https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80`}
-                  alt={sport.name}
-                  className="w-full h-48 object-cover"
-                />
+              <div key={sport.id} className="card group">
+                <div className="relative overflow-hidden">
+                  <img
+                    src={sport.image_url}
+                    alt={sport.name}
+                    className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+                  <div className="absolute bottom-4 left-4 right-4">
+                    <h3 className="text-white text-xl font-bold">{sport.name}</h3>
+                  </div>
+                </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                    {sport.name}
-                  </h3>
                   <p className="text-gray-600 mb-4">
                     {sport.description.substring(0, 100)}...
                   </p>
@@ -143,6 +146,9 @@ const Home = () => {
                         {sport.coaching_available ? 'Coaching Available' : 'Self Practice'}
                       </span>
                     </div>
+                    <span className="text-sm text-primary-600 font-medium">
+                      {sport.facilities.length} Facilities
+                    </span>
                   </div>
                 </div>
               </div>
