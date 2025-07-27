@@ -169,18 +169,26 @@ async def initialize_db():
             {
                 "id": str(uuid.uuid4()),
                 "name": "State of the Art Facilities",
-                "description": "We aim to provide the best for our players. These turfs are made of the best in the industry polyvinyl derivatives.",
-                "image_url": "/images/facilities.jpg",
+                "description": "We aim to provide the best for our players. These turfs are made of the best in the industry polyvinyl derivatives, and we source our equipment from the topmost sports suppliers.",
+                "image_url": "https://images.unsplash.com/photo-1705593136686-d5f32b611aa9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
                 "location": "Both Branches",
-                "features": ["Professional Turf", "Modern Equipment", "Safety Standards", "Maintenance"]
+                "features": ["Professional Turf", "Modern Equipment", "Safety Standards", "Regular Maintenance", "Climate Control"]
             },
             {
                 "id": str(uuid.uuid4()),
                 "name": "Professional Coaching",
-                "description": "Our coaches are graduates of Sports Ministry of India's mandatory A++ programmes.",
-                "image_url": "/images/coaching.jpg",
+                "description": "Our coaches are graduates of Sports Ministry of India's mandatory A++ programmes. Four of them have an undergraduate degree in sports sciences and studies as well.",
+                "image_url": "https://images.unsplash.com/photo-1632064914162-1d99c4cb571c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
                 "location": "Both Branches",
-                "features": ["Certified Coaches", "Structured Training", "Individual Attention", "Performance Analysis"]
+                "features": ["Certified Coaches", "Structured Training", "Individual Attention", "Performance Analysis", "Sports Science"]
+            },
+            {
+                "id": str(uuid.uuid4()),
+                "name": "Training & Fitness Center",
+                "description": "Comprehensive fitness facilities with modern equipment and expert trainers to help athletes reach their peak performance.",
+                "image_url": "https://images.unsplash.com/photo-1620188500179-32ac33c60848?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+                "location": "Both Branches",
+                "features": ["Modern Gym Equipment", "Personal Trainers", "Fitness Programs", "Nutrition Guidance", "Recovery Centers"]
             }
         ]
         db.facilities.insert_many(facilities_data)
