@@ -244,8 +244,8 @@ async def initialize_db():
                 "id": str(uuid.uuid4()),
                 "name": "Relish Bangalore",
                 "location": "Bangalore",
-                "description": "Opened in 2017, this is our Main Branch. Located in the heart of the IT hub, perfect for young professionals.",
-                "image_url": "/images/bangalore.jpg",
+                "description": "Opened in 2017, this is our Main Branch. Located in the heart of the IT hub, perfect for young professionals seeking fitness and recreation.",
+                "image_url": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
                 "contact_info": {
                     "address": "28-1-7/4, J.P.Nagar 4th block, Besides Prestige Towers, Bangalore, Karnataka, India",
                     "phone": "+41 97454 45321"
@@ -255,8 +255,8 @@ async def initialize_db():
                 "id": str(uuid.uuid4()),
                 "name": "Relish Vizag",
                 "location": "Visakhapatnam",
-                "description": "Opened in 2021, this is our fastest growing branch. Located along the beautiful beach road.",
-                "image_url": "/images/vizag.jpg",
+                "description": "Opened in 2021, this is our fastest growing branch. Located along the beautiful beach road, perfect for water sports and traditional sports.",
+                "image_url": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
                 "contact_info": {
                     "address": "39-39-7/1, Muralinagar, Near Masjid-e-Nabwi, Visakhapatnam, India",
                     "phone": "+1 3(467)5 4986"
