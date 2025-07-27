@@ -83,12 +83,12 @@ const About = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {coaches.map((coach, index) => (
               <div key={coach.id} className="card text-center">
                 <div className="p-6">
                   <img
-                    src={`https://images.unsplash.com/photo-${index === 0 ? '1472099645785-5658abf4ff4e' : index === 1 ? '1507003211169-0a1dd7228f2d' : '1500648767791-c0739923b432'}?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80`}
+                    src={coach.image_url}
                     alt={coach.name}
                     className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
                   />
