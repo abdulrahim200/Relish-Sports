@@ -199,25 +199,41 @@ async def initialize_db():
                 "id": str(uuid.uuid4()),
                 "name": "Albert James",
                 "designation": "CEO & Co-Founder",
-                "description": "Ex-Employee at Accenture, Avid fan of Chelsea, foodie, Gym freak.",
-                "image_url": "/images/albert.jpg",
-                "sports": ["Football", "General Fitness"]
+                "description": "Ex-Employee at Accenture, Avid fan of Chelsea, foodie, Gym freak. Expert in football training and sports management.",
+                "image_url": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+                "sports": ["Football", "General Fitness", "Sports Management"]
             },
             {
                 "id": str(uuid.uuid4()),
                 "name": "Jameel Pasha",
                 "designation": "CTO & Co-Founder",
-                "description": "Ex-Employee at Zomato, Avid fan of Tottenham, Football freak.",
-                "image_url": "/images/jameel.jpg",
-                "sports": ["Football", "Sports Technology"]
+                "description": "Ex-Employee at Zomato, Avid fan of Tottenham, Football freak. Specializes in sports technology and football coaching.",
+                "image_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+                "sports": ["Football", "Sports Technology", "Team Strategy"]
             },
             {
                 "id": str(uuid.uuid4()),
                 "name": "Keertan Kumar",
                 "designation": "COO & Co-Founder",
-                "description": "Ex-Employee at NVIDIA, Avid fan of CSK, Cricket fan.",
-                "image_url": "/images/keertan.jpg",
-                "sports": ["Cricket", "Operations"]
+                "description": "Ex-Employee at NVIDIA, Avid fan of CSK, Cricket fan. Expert in cricket coaching and operations management.",
+                "image_url": "https://images.unsplash.com/photo-1500648767791-c0739923b432?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+                "sports": ["Cricket", "Operations", "Team Management"]
+            },
+            {
+                "id": str(uuid.uuid4()),
+                "name": "Priya Sharma",
+                "designation": "Head Badminton Coach",
+                "description": "Former state-level badminton player with 10+ years of coaching experience. Specializes in technique and mental training.",
+                "image_url": "https://images.unsplash.com/photo-1632064460079-dae5e6a25054?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+                "sports": ["Badminton", "Mental Training", "Youth Development"]
+            },
+            {
+                "id": str(uuid.uuid4()),
+                "name": "Rajesh Patel",
+                "designation": "Kabaddi Master Coach",
+                "description": "National-level Kabaddi player turned coach. Expert in traditional Indian sports and fitness training.",
+                "image_url": "https://images.pexels.com/photos/6296021/pexels-photo-6296021.jpeg?auto=compress&cs=tinysrgb&w=400",
+                "sports": ["Kabaddi", "Traditional Sports", "Strength Training"]
             }
         ]
         db.coaches.insert_many(coaches_data)
