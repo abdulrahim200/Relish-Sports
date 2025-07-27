@@ -77,7 +77,7 @@ const SportDetail = () => {
             </div>
             <div className="relative">
               <img
-                src={`https://images.unsplash.com/photo-${sport.name.toLowerCase() === 'cricket' ? '1540747913346-19e32dc3e97e' : sport.name.toLowerCase() === 'football' ? '1551698618-1dfe5d97d256' : sport.name.toLowerCase() === 'badminton' ? '1544717117-8b808532ee78' : '1593766806881-75d3ef5c3402'}?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80`}
+                src={sport.image_url}
                 alt={sport.name}
                 className="w-full h-64 object-cover rounded-lg shadow-lg"
               />
